@@ -4,6 +4,7 @@ import App from '../App.jsx';
 import HomePage from '../pages/home.page.jsx';
 import PageFeed from '../pages/feed.page.jsx';
 import PageFeed2 from '../pages/feed.page.2.jsx';
+import TrackPage from '../pages/track.jsx';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,9 @@ const router = createBrowserRouter([
       },
       { path: "/feed", element: <PageFeed/> },
       { path: "/feed1", element: <PageFeed2/> },
+      {
+        path: "/track",element: <TrackPage/>,
+      }
       
     ],
   },
